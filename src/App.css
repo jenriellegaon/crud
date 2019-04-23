@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  margin: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button-edit {
+  font-size: 12px;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background: rgb(24, 92, 155);
+  cursor: pointer;
+}
+
+.button-delete {
+  font-size: 12px;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background: rgb(196, 39, 39);
+  cursor: pointer;
+}
+
+.button-add {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 15px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background: rgb(24, 92, 155);
+  cursor: pointer;
+}
+
+.button-save {
+  font-size: 12px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background: rgb(24, 92, 155);
+  cursor: pointer;
+}
+
+.input-text {
+  width: initial;
+  height: initial;
+  position: relative;
+  padding: 10px 16px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  color: #282828;
+}
+
+.div-form-add {
+  margin: 10px;
+}
+
+.div-form-parent {
+  margin: 10px;
+  padding: 20px;
+}
